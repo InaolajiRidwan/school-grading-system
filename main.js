@@ -493,17 +493,7 @@ function reset() {
 
 
     document.getElementById('Grade').innerText = "";
-    
-
-
-
-
-
-
-
-
-
-}
+};
 
 
 
