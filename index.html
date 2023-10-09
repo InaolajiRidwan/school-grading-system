@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL LEARNING APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="whole">
+        <div class="whole1">
+            <section id="zero">
+                <div class="usersdetails">
+                    <h3>LastName<input id="last" type="text" placeholder="lastname"></h3>
+                    <h3>FirstName <input id="firstN" type="text" placeholder="firstname"></h3>
+                </div>
+            </section>
+        </div>
+        <div class="whole2">
+            <section id="one">
+            <div class="first">
+                <h3>Mathematics<input id="math" type="number" placeholder="EXAM"><input type="text" id="mathtest" placeholder="TEST"></h3>
+                <h3>English <input id="eng" type="number" placeholder="EXAM"><input type="text"  id="engtest" placeholder="TEST"></h3>
+                <h3>Civic Education <input type="number" id="civic" placeholder="EXAM"> <input type="text" id="civictest" placeholder="TEST"></h3>
+                <h3>Biology <input id="bio" type="number" placeholder="EXAM"> <input type="text" id="biotest" placeholder="TEST"></h3>
+                <h3>Chemistry <input id="chem" type="number" placeholder="EXAM"><input type="text" id="chemtest" placeholder="TEST"></h3>
+                <h3>Physics <input id="phy" type="number" placeholder="EXAM"><input type="text" id="phytest" placeholder="TEST"></h3>
+                <h3>Economics <input id="eco" type="number" placeholder="EXAM"><input type="text" id="ecotest" placeholder="TEST"></h3>
+                <h3>Yoruba <input id="yor" type="number" placeholder="EXAM"><input type="text" id="yortest" placeholder="TEST"></h3>
+                <h3>Agriculture <input type="number" id="anh" placeholder="EXAM"><input type="text" id="anhtest" placeholder="TEST"></h3>
+            </div>
+            <div class="second">
+                <button onclick="btnTestTotal()">TOTAL TEST SCORE</button>
+                <button onclick="btnTotalExam()" id="btn0" > TOTAL EXAM SCORE</button>
+                <button onclick="btnOverAllScore()" id="btn1">OVERALL SCORE</button>
+                <button onclick="btnAverageScore()" id="btn2">AVERAGE SCORE</button>
+                <button onclick="btnGrade()" id="btn3">GRADE</button>
+                <button onclick="reset()" id="btn4">RESET</button>
+            </div>
+        </section>
+        <section id="second">
+            <div class="third">
+                <div>
+                    <h4>TOTAL TEST SCORE</h4>
+                    <P id="Totaltest"></P>
+                </div>
+                <div>
+                    <h4>TOTAL EXAM SCORE</h4>
+                    <P id="totalExam"></P>
+                </div>
+                <div class="overall">
+                    <h4>OVERALL SCORES</h4>
+                    <p id="total"></p>
+                </div>
+                <div class="Results">
+                    <h4>AVERAGE SCORE</h4>
+                    <p id="Results"></p>
+                </div>
+                <div class="Ge">
+                    <h4>GRADE</h4>
+                    <p id="Grade"></p>
+                </div>
+            </div>
+         </section> 
+        </div>
+        
+        
+    </div>
+
+   
+   
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
